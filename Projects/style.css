@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pic_bg{
+    background-color: rgb(14, 204, 188);
+    width: 450px;
+    height: 200px;
+    border-radius: 25px;
+}
+.Arpit{
+    width: 140px;
+    position: relative;
+    top: 100px;
+    border-radius: 70px;
+    left: 150px;
+    margin-bottom: 40px;
+    padding: 3px;
+    background-color: rgb(14, 204, 188);
+}
+
+.Content{
+    width: 450px;
+    height: 400px;
+    color: black;
+    padding-top: 60px;
+
+}
+p{
+    margin: 0px;
+}
+/*
+.content{
+    */
+/* }
+.name{
+    padding-top: 50px;
+    padding-left: 145px;
+    line-height: 20px;
+    font-weight: bold;
+    line-height: 35px;
+    font-size: 24px;
+}
+.info{
+    padding-top: 10px;
+    padding-left: 130px;
+    line-height: 20px;
+    font-size: 19px;
+}
+.fun{
+    padding-top: 15px;
+    padding-left: 130px;
+    line-height: 20px;
+} */
+ .content{
+display: flex;
+flex-direction: column;
+align-items: center;
+ }
+ .name{
+    line-height: 20px;
+    font-weight: bold;
+    line-height: 35px;
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+.info{
+    line-height: 22px;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+.fun{
+    line-height: 21px;
+    font-size: 17px;
+    margin-top: 5px;
+} 
+
+
+
+
+
+.icons{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: ;
+}
+.img1{
+ /* color: white; 
+ cursor: pointer; */
+}
+.img2{
+height: 21px;
+width: 20px;
+}
+.img3{
+
+}
+.insta{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+border-radius: 19px;
+background-color: white;
+margin-right: 39px;
+padding-top: 1.5px;
+ } 
+.X{
+    width: 40px;
+    height: 40px;
+    border-radius: 23px;
+    background-color: white;
+    margin-right: 39px;
+    cursor: pointer;
+}
+.yt{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 19px;
+    background-color: white;
+    /* border-radius: 18px;
+    background-color: aqua;
+    margin-right: 5px; */
+    margin-right: 20px;
+    padding-top: 1.5px;
+}
+.Profile{
+    width: 450px;
+    height: 600px;
+    border-color: black;
+    border: solid;
+    border-width: 2px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 19px;
+}
+ .button.button{
+    margin-top: 14px;
+    margin-right: 30px;
+    color: white;
+    font-size: 1;
+    border: none;
+    border-radius: 24px;
+    padding: 8px 24px;
+    cursor: pointer;
+    transition: all .4s ease;
+    background-color: #4040f4;
+}
+.buttons.button:hover{
+background-color: #0e4bf1;
+}
+.analytics{
+    margin-top: 29px;
+}
+body{
+    margin-left: 230px;
+    margin-top: 150px;
+}
